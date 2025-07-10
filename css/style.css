@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-image: url(../assets/Hero-bg.png);
+    height: 600px;
+    background-size: cover;
+    }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 50px;
+    list-style: none;
+
+}
+.hd{
+    text-align: center;
+    margin: 158px;
+
+}
+.ht{
+    color:rgba(37, 36, 50, 1);
+    font-size: 65px;
+    font-weight: bold ;
+}
+.btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    background-color:#4E47FF;
+    padding: 15px 20px 15px;
+    margin-top: 37px;
+
+
+
+}
+.btn:hover:hover{
+    background-color: rgb(138, 135, 236);
+}
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
