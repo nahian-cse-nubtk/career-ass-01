@@ -3,7 +3,10 @@
     padding: 0;
 
 }
-
+body{
+    max-width: 1440px;
+    margin: opx auto;
+}
 
 header{
     background-image: url(../assets/Hero-bg.png);
@@ -222,7 +225,7 @@ nav ul{
 footer{
     width: 1350px;
     height: 428px;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(240, 217, 217);
 }
 .f1{
     text-align: center;
