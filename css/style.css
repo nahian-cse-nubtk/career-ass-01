@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+body{
+    color: rgba(214, 221, 237, 1);
+}
 
 header{
     background-image: url(../assets/Hero-bg.png);
@@ -56,11 +59,13 @@ nav ul{
 .action-head{
     font-size: 42px;
     padding-top: 62.3px;
+    color: rgba(37, 36, 50, 1);
 
 }
 .action-paragraph{
     font-size: 24px;
     padding-top: 23px;
+    color: rgba(37, 36, 50, 0.5);
 
 
 }
@@ -69,17 +74,59 @@ nav ul{
     height: 328px;
 
 }
-.main-first-section{
 
-}
 .action{
     display: flex;
-    justify-content: space-between; /* creates auto space between the two divs */
-    align-items: center;            /* vertically center the image and text */
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     margin: 116px 114px 116px ;
 
 }
 .ac{
     padding-right: 20px;
+}
+.ft{
+    font-size: 38px;
+    color: rgba(37, 36, 50, 1);
+    padding-top: 50px;
+}
+.inter-produc{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.inter-producc{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.pro-p1{
+    font-size: 80px;
+    color: #4E47FF;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.pro-p2{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.prodiv{
+    display: flex;
+    align-items: center;
+    padding: 40px 110px 50px;
+    }
+.pro{
+    text-align: center;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width: 1100px;
+    height: 306px;
+    margin-left: 120px;
+    margin-right: 159px;
+    margin-bottom: 137px;
+    background-color: rgba(78, 71, 255, 0.1);
 }
