@@ -3,9 +3,9 @@
     padding: 0;
 
 }
-body{
+/* body{
     color: rgba(214, 221, 237, 1);
-}
+} */
 
 header{
     background-image: url(../assets/Hero-bg.png);
@@ -72,6 +72,7 @@ nav ul{
 .imag-01{
     width: 403px;
     height: 328px;
+    border-radius: 30px;
 
 }
 
@@ -129,4 +130,45 @@ nav ul{
     margin-right: 159px;
     margin-bottom: 137px;
     background-color: rgba(78, 71, 255, 0.1);
+}
+
+.lab{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.touch{
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1);
+    padding-right: 233px;
+    padding-top: 100px;
+    padding-bottom: 129px;
+}
+.form{
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 32px 20px 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-body{
+    width: 497px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bttnn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    background-color:#4E47FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.msec{
+    display: flex;
+    margin-left: 91px;
+    margin-right: 91px;
 }
