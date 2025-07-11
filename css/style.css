@@ -195,6 +195,7 @@ nav ul{
     border-radius: 50%;
     object-fit: cover;
     display: block;
+    padding: 5px;
 }
 .card{
     display: flex;
