@@ -3,9 +3,7 @@
     padding: 0;
 
 }
-/* body{
-    color: rgba(214, 221, 237, 1);
-} */
+
 
 header{
     background-image: url(../assets/Hero-bg.png);
@@ -167,8 +165,69 @@ nav ul{
     margin-top: 10px;
     border-radius: 7px;
 }
+.bttnn:hover{
+    background-color: rgb(156, 154, 218);
+}
 .msec{
     display: flex;
     margin-left: 91px;
     margin-right: 91px;
+}
+.say-head{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ifex{
+    display: flex;
+    list-style: none;
+}
+
+.say-h2{
+    margin-top: 24px;
+}
+.sm{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.card{
+    display: flex;
+}
+.c1{
+    margin-left: 4px;
+    color: rgba(117, 117, 117, 1);
+    padding: 5px;
+}
+.card-01{
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 15px;
+    width: 367px;
+    height: 243px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.c2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mdiv{
+    display: flex;
+    margin-left: 151px;
+    margin-right: 151px;
+    margin-bottom: 137px;
+}
+footer{
+    width: 1350px;
+    height: 428px;
+    background-color: rgb(247, 242, 242);
+}
+.f1{
+    text-align: center;
+    color: rgba(78, 71, 255, 1);
+    font-size: 50px;
+    padding-top: 104px
+
 }
